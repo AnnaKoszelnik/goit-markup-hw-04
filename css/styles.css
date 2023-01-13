@@ -395,3 +395,22 @@ body {
   display: flex;
   margin-top: 20px;
 }
+
+.team-so-me-icons {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill: #afb1b8;
+}
+
+.team-so-me-icons:hover,
+.team-so-me-icons:focus,
+.team-so-me-icons:active {
+  border-radius: 50%;
+  background-color: var(--hover-color);
+  fill: #ffffff;
+}
+
+.new-1 {
+  display: flex;
+}
