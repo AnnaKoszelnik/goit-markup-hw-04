@@ -363,3 +363,35 @@ body {
 .nav-icons:focus {
   fill: var(--hover-color);
 }
+
+.footer-so-me {
+  font-family: "roboto";
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-page {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.footer-social-links {
+  margin-left: 70px;
+}
+
+.footer-icons {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: #ffffff;
+}
+
+.new {
+  display: flex;
+  margin-top: 20px;
+}
