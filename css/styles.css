@@ -197,7 +197,7 @@ body {
 }
 
 .team-cards-description {
-  margin: 30px 70px 0;
+  padding: 16px 32px 18px;
 }
 
 .member-name {
@@ -419,7 +419,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin: 16px 32px 18px;
+  margin: 16px 0 0 0;
 }
 
 .team-so-me-icons:hover,
