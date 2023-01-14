@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
+  margin: 0;
 }
 :root {
   --main-color: #212121;
@@ -196,7 +197,7 @@ body {
 }
 
 .team-cards-description {
-  padding: 30px;
+  margin: 30px 70px 0;
 }
 
 .member-name {
@@ -402,7 +403,7 @@ body {
 .social-media-icons {
   display: flex;
   padding-left: 0;
-  list-style-type: none;
+  list-style: none;
   margin-top: 20px;
 }
 
@@ -411,6 +412,14 @@ body {
   height: 44px;
   padding: 12px;
   fill: #afb1b8;
+  list-style: none;
+}
+
+.team-so-me-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 16px 32px 18px;
 }
 
 .team-so-me-icons:hover,
@@ -419,4 +428,5 @@ body {
   border-radius: 50%;
   background-color: var(--hover-color);
   fill: #ffffff;
+  cursor: pointer;
 }
